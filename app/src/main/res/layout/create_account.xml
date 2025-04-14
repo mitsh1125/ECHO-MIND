@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_account"
+    android:gravity="center"
+    android:background="@drawable/login_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREATE ACCOUNT"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/baseline_account_circle_24"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fname_input"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/username_input"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age_input"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/anname_input"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="Anonymous Name"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/gender_input"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="Gender"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <EditText
+                android:id="@+id/typeacc_input"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/round_corner"
+                android:ems="10"
+                android:hint="Type Of Account"
+                android:inputType="textPersonName"
+                android:padding="18dp"
+                android:textColor="#00000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/created_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="CREATE ACCOUNT"/>
+    </LinearLayout>
+</RelativeLayout>
