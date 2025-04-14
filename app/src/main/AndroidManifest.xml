@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ECHOMIND"
         tools:targetApi="31">
         <activity
+            android:name=".POST"
+            android:exported="false" />
+        <activity
             android:name=".Buttom_Nav"
             android:exported="false"
             android:label="@string/title_activity_buttom_nav" />
