@@ -42,10 +42,7 @@ public class create_account {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.create_account); // Your XML layout
-
             mAuth = FirebaseAuth.getInstance();
-
-
        editTextFirstName = findViewById(R.id.fname_input);
        editTextLastname = findViewById(R.id.lname_input);
        editTextPassword =findViewById(R.id.password_input);
