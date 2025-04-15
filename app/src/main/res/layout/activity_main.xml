@@ -35,7 +35,7 @@
             android:layout_marginTop="32dp"
             android:background="@drawable/round_corner"
             android:ems="10"
-            android:hint="Username"
+            android:hint="Anonymous Name"
             android:inputType="textPersonName"
             android:padding="18dp"
             android:textColor="#00000"
