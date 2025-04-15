@@ -39,7 +39,7 @@
             android:orientation="horizontal"
             android:layout_marginBottom="20dp">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/fname_input"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
@@ -52,8 +52,8 @@
                 android:textColor="#00000"
                 android:textSize="20dp" />
 
-            <EditText
-                android:id="@+id/username_input"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lname_input"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="10dp"
@@ -64,8 +64,7 @@
                 android:inputType="textPersonName"
                 android:padding="18dp"
                 android:textColor="#00000"
-                android:textSize="20dp"
-                />
+                android:textSize="20dp" />
 
         </LinearLayout>
 
@@ -76,7 +75,7 @@
             android:orientation="horizontal"
             android:layout_marginBottom="20dp">
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/anony"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
@@ -89,7 +88,7 @@
                 android:textColor="#00000"
                 android:textSize="20dp" />
 
-            <EditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_input"
                 android:layout_width="200dp"
                 android:layout_height="80dp"
@@ -104,15 +103,25 @@
                 android:textSize="20dp" />
 
 
+ <ProgressBar
+    android:id="@+id/progressbar"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
         </LinearLayout>
-
-
-
         <Button
             android:id="@+id/created_btn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:text="CREATE ACCOUNT"/>
+        
+        <TextView
+            android:id="@+id/loginNow"
+            android:textAlignment="center"
+            android:text="@string/click_to_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
     </LinearLayout>
 </RelativeLayout>
