@@ -12,9 +12,7 @@ public class create_account {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.create_account); // Your XML layout
-
             Button createAccountButton = findViewById(R.id.created_btn);
-
             // Set OnClickListener
             createAccountButton.setOnClickListener(new View.OnClickListener() {
                 @Override
